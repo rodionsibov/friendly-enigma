@@ -21,12 +21,12 @@
     </div>
   </body>
   <script>
-    const btnEl = document.querySelector(".btn-menu");
+    const btnMenuEl = document.querySelector(".btn-menu");
     const menuIconEl = document.querySelector(".menu");
     const closeIconEl = document.querySelector(".close");
     const mobileMenuEl = document.querySelector(".mobile-menu");
 
-    btnEl.addEventListener("click", () => {
+    btnMenuEl.addEventListener("click", () => {
       mobileMenuEl.classList.toggle("hidden");
       mobileMenuEl.classList.toggle("flex");
       menuIconEl.classList.toggle("hidden");
