@@ -1,18 +1,32 @@
 <header class="flex justify-between">
   <p class="font-bold">[ eleventy ]</p>
-  <div class="md:hidden">
+  <div class="md:hidden btn-menu">
     <svg
       xmlns="http://www.w3.org/2000/svg"
       fill="none"
       viewBox="0 0 24 24"
       stroke-width="1.5"
       stroke="currentColor"
-      class="w-6 h-6"
+      class="w-6 h-6 menu"
     >
       <path
         stroke-linecap="round"
         stroke-linejoin="round"
         d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5"
+      />
+    </svg>
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      fill="none"
+      viewBox="0 0 24 24"
+      stroke-width="1.5"
+      stroke="currentColor"
+      class="w-6 h-6 hidden close"
+    >
+      <path
+        stroke-linecap="round"
+        stroke-linejoin="round"
+        d="M6 18L18 6M6 6l12 12"
       />
     </svg>
   </div>
@@ -31,3 +45,21 @@
     </li>
   </ul>
 </header>
+<div
+  class="mobile-menu hidden justify-center items-center p-8 w-full bg-white absolute top-12 left-0"
+>
+  <ul class="space-y-2 text-lg">
+    <li>
+      <a class="hover:underline" href="/">Home</a>
+    </li>
+    <li>
+      <a class="hover:underline" href="/about">About</a>
+    </li>
+    <li>
+      <a class="hover:underline" href="/projects">Projects</a>
+    </li>
+    <li>
+      <a class="hover:underline" href="/contact">Contact</a>
+    </li>
+  </ul>
+</div>
