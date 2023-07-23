@@ -1,0 +1,11 @@
+---
+title: "Eleventy Portfolio"
+layout: "base.njk"
+---
+
+<section class="prose mx-auto">
+  <div class="">
+    {% asyncEach project in collections.projects %} {% include
+    "project-card.njk" %} {% endeach %}
+  </div>
+</section>

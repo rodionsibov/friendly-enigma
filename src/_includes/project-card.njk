@@ -1,0 +1,35 @@
+<article class="w-full">
+  <div class="">
+    {% EleventyImage project.data.image, project.data.imageAlt, "(min-width:
+    30em) 50vw, 100vw" %}
+  </div>
+  <div class="">
+    <div class="flex gap-2 py-4">
+      {% for tag in project.data.tech %}
+      <span class="bg-red-100 rounded px-2 py-1 text-sm">{{ tag }}</span>
+      {% endfor %}
+    </div>
+    <h3 class="font-bold text-xl mb-2 not-prose">
+      <a class="" href="{{ project.url }}">{{ project.data.title }}</a>
+    </h3>
+    <p class="mb-4">{{ project.data.summary }}</p>
+    <a
+      class="font-bold text-sm flex items-center text-orange-600"
+      href="{{ project.url }}"
+    >
+      <span>Read project case study</span>
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        class="w-6"
+        viewBox="0 0 20 20"
+        fill="currentColor"
+      >
+        <path
+          fill-rule="evenodd"
+          d="M7.293 14.707a1 1 0 010-1.414L10.586 10 7.293 6.707a1 1 0 011.414-1.414l4 4a1 1 0 010 1.414l-4 4a1 1 0 01-1.414 0z"
+          clip-rule="evenodd"
+        />
+      </svg>
+    </a>
+  </div>
+</article>

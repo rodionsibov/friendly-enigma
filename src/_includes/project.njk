@@ -1,0 +1,13 @@
+---
+layout: "base.njk"
+---
+
+<div class="prose mx-auto">
+  <h2 class="">{{ title }}</h2>
+  <div class="">
+    {% EleventyImage image, imageAlt, "(min-width: 30em) 50vw, 100vw" %}
+  </div>
+  <div class="">
+    {{ content | safe }}
+  </div>
+</div>
