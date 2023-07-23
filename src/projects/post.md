@@ -1,9 +1,10 @@
 ---
-title: "New post"
-summary: I'm a huge Dungeons and Dragons fan, but keeping my spells straight has always
+title: New post
+summary: >-
+  I'm a huge Dungeons and Dragons fan, but keeping my spells straight has always
   been a challenge. I built this app to put all the information I need at my
   fingertips.
-image: /images/4.jpg
+image: /images/4.avif
 imageAlt: Screenshots of DnD project
 tech:
   - Next.js
@@ -11,6 +12,7 @@ tech:
   - Tailwind CSS
 siteUrl: '#'
 repoUrl: '#'
+published: true
 ---
 
 ## A New Post
