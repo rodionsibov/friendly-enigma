@@ -17,4 +17,6 @@ published: true
 
 ## A New Post
 
+![4.avif]({{site.baseurl}}/images/4.avif)
+
 Enter text in [Markdown](http://daringfireball.net/projects/markdown/). Use the toolbar above, or click the **?** button for formatting help.
