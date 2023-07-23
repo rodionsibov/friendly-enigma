@@ -12,7 +12,7 @@ tech:
   - Tailwind CSS
 siteUrl: '#'
 repoUrl: '#'
-published: true
+published: false
 ---
 
 ## A New Post
