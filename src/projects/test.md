@@ -13,6 +13,9 @@ repoUrl: "#"
 
 ### Problem Solved
 
+![Screenshot from 2023-07-24 22-38-14](https://github.com/rodionsibov/friendly-enigma/assets/60054035/0d845a77-5adf-4c71-9e7a-19cce5707bb5)
+
+
 Yes, I could have just used DnD Beyond. But where's the fun in that? Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Tincidunt tortor aliquam nulla facilisi. Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque sit. Condimentum lacinia quis vel eros donec ac odio tempor orci.
 
 ### Technologies Used
