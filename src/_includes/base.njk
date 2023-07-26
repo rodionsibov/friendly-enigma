@@ -9,6 +9,7 @@
       content="I'm a frontend software developer who builds sites and apps that help people reach their personal and professional goals."
     />
     <link rel="stylesheet" href="{{ '/css/tailwind.css' | url | safe }}" />
+    <link href="/_pagefind/pagefind-ui.css" rel="stylesheet" />
     <title>{{ title }}</title>
   </head>
   <body>
@@ -20,6 +21,12 @@
       {% include 'footer.njk' %}
     </div>
   </body>
+  <script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+  <script>
+    window.addEventListener("DOMContentLoaded", (event) => {
+      new PagefindUI({ element: "#search" });
+    });
+  </script>
   <script>
     const btnMenuEl = document.querySelector(".btn-menu");
     const menuIconEl = document.querySelector(".menu");
